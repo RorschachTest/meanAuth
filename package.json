@@ -1,0 +1,29 @@
+{
+  "name": "meanapp",
+  "version": "1.0.0",
+  "description": "mean app with simple login authentication",
+  "main": "app.js",
+  "scripts": {
+    "test": "moncha"
+  },
+  "keywords": [
+    "MEAN",
+    "possport.io",
+    "REST",
+    "API",
+    "Auth",
+    "Guard"
+  ],
+  "author": "rihazzahir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  }
+}
